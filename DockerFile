@@ -1,5 +1,5 @@
 FROM golang:alpine
-ADD . /go/src/github.com/xtianlee/hello
+ADD . D:/XTIAN/Devs/GIT/Go/GoDevs/src/github.com/xtianlee/hello
 RUN go install github.com/xtianlee/hello
 CMD ["/go/bin/hello"]
 EXPOSE 3000
