@@ -1,0 +1,5 @@
+FROM golang:alpine
+ADD . /src/hello
+RUN go install github.com/xtian/hello
+CMD ["/go/bin/hello"]
+EXPOSE 3000
